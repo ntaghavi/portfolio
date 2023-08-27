@@ -9,6 +9,7 @@ body {
   font-family: var(--default-font-family);
 }
 
+
 h1,
 h2,
 h3,
@@ -29,7 +30,6 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -67,15 +67,13 @@ p {
 }
 
 .projects p {
-  font-size: 20px;
-  font-weight: 400;
-  font-style: normal;
-}
-.paraf {
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
   opacity: 0.7;
+}
+.projects h2 {
+  font-size: 30px;
 }
 
 @media (max-width: 576px) {
