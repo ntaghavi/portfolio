@@ -22,15 +22,20 @@ h2 {
   font-weight: 700px;
   font-size: 36px;
   margin: 10px;
+  line-height: 54px;
 }
 h3 {
   font-weight: 400px;
   font-size: 24px;
   margin: 10px;
+  line-height: 36px;
 }
 .contact-button {
   text-decoration: none;
+  display: block;
   color: white;
+  width: 200px;
+  margin: 0 auto;
   background: var(--primary-color);
   padding: 18px 30px;
   border-radius: 4px;
