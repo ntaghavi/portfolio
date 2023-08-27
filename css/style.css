@@ -56,3 +56,41 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding-light {
+  color: var(--branding-color);
+  border-radius: 4px;
+  background: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border: solid var(--branding-color);
+}
+
+.projects p {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+.paraf {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0.7;
+}
+
+@media (max-width: 576px) {
+  .project-text h2 {
+    text-align: center;
+  }
+  .project-text {
+    margin-top: 100px;
+  }
+  .project-text a {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+  .project-text p {
+    text-align: center;
+  }
+}
