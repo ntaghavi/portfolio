@@ -88,7 +88,22 @@ p {
   font-style: normal;
   opacity: 0.7;
 }
-
+.works {
+  text-align: center;
+}
+.works h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.work h5 {
+  font-family: var(--default-font-family);
+}
+.work p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0.7;
+}
 @media (max-width: 576px) {
   .project-text h2 {
     text-align: center;
