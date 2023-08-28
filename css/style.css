@@ -91,12 +91,20 @@ p {
 .works {
   text-align: center;
 }
-.works h1 {
+.works,
+.contact-us h1 {
   font-size: 64px;
   line-height: 80px;
 }
 .work h5 {
   font-family: var(--default-font-family);
+}
+.contact-us h3 {
+  font-family: var(--default-font-family);
+}
+.contact-us a {
+  text-decoration: none;
+  color: var(--branding-color);
 }
 .work p {
   font-size: 16px;
@@ -120,6 +128,9 @@ p {
     text-align: center;
   }
   .about-text {
+    text-align: center;
+  }
+  .contact-us {
     text-align: center;
   }
 }
