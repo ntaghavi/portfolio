@@ -197,3 +197,13 @@ nav li.active a {
   background: var(--branding-color);
   color: white;
 }
+.source {
+  text-align: center;
+  font-size: 16px;
+  font-family: monospace;
+  opacity: 0.7;
+}
+.source a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
