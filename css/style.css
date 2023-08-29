@@ -165,3 +165,35 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+.footer {
+  padding: 16px 20px;
+  background: var(--secondary-color);
+}
+.footer p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 0.7;
+}
+.footer2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.footer2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+.footer2 a:hover {
+  color: var(--branding-color);
+}
+.social a {
+  color: var(--branding-color);
+  font-size: 20px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+}
+.social a:hover {
+  background: var(--branding-color);
+  color: white;
+}
